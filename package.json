@@ -1,15 +1,20 @@
 {
-  "name": "sample-node-project",
+  "name": "express-supertest-example",
   "version": "1.0.0",
-  "description": "Sample Node.js Project",
-  "main": "app.js",
+  "description": "Simple Express app with Supertest and Mocha testing",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "mocha"
   },
-  "author": "Adem Cemil YALCIN",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.10",
-    "express": "^5.1.0"
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.8.2",
+    "supertest": "^6.3.4"
   }
 }
