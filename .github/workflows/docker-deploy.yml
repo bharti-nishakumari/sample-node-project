@@ -23,5 +23,5 @@ jobs:
           context: .
           push: true
           tags: |
-            project191/sample-node-project:latest
-            project191/sample-node-project:${{ github.sha }}
+            nisha8112/sample-node-project:latest
+            nisha8112/sample-node-project:${{ github.sha }}
